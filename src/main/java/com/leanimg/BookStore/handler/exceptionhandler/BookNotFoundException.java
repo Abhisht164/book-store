@@ -1,4 +1,4 @@
-package com.leanimg.BookStore.handler;
+package com.leanimg.BookStore.handler.exceptionhandler;
 
 public class BookNotFoundException extends RuntimeException {
     public BookNotFoundException(String message) {

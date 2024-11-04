@@ -1,7 +1,7 @@
 package com.leanimg.BookStore.controller;
 
 import com.leanimg.BookStore.entity.Book;
-import com.leanimg.BookStore.handler.BookNotFoundException;
+import com.leanimg.BookStore.handler.exceptionhandler.BookNotFoundException;
 import com.leanimg.BookStore.service.BookService;
 import lombok.AllArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;

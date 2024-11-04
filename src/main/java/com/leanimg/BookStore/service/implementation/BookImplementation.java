@@ -1,10 +1,9 @@
 package com.leanimg.BookStore.service.implementation;
 
 import com.leanimg.BookStore.entity.Book;
-import com.leanimg.BookStore.handler.BookNotFoundException;
+import com.leanimg.BookStore.handler.exceptionhandler.BookNotFoundException;
 import com.leanimg.BookStore.repository.BookRepository;
 import com.leanimg.BookStore.service.BookService;
-import jakarta.persistence.EntityNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
